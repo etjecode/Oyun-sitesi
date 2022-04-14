@@ -1,3 +1,3 @@
-# Haber-sitesi
+# Oyun-sitesi
 
-Haber portalı
+Oyun portalı
