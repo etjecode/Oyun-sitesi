@@ -1,61 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
-  background-color: white;
-  color: black;
+  font-family: "Open Sans", sans-serif;
+  color: #9F9F9F;
+  background-color: #FEFEFE;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Changa", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
-
-/* 
-.logo {
-  float: left;
-  width: 100px;
-  height: 45px;
-  color: red;
-  margin: 0px;
-  padding: 0px;
-  font-size: xx-large;
-  font-weight: bold;
-
-}
-
-.top-social-menu {
-  list-style-type: none;
-  width: 100px;
-  height: 20px;
-  background-color: red;
-}
-
-
-.login-aera {
-  list-style-type: none;
-  float: right;
-  width: 100px;
-  height: 45px;
-  background-color: red;
-  margin-left: 10px;
-  padding: 0px;
-  font-weight: bold;
-
-}
-
-.menu {
-  height: 45px;
-  list-style-type: none;
-  border-bottom: 2px solid red;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-}
-
-.menu li {
-  float: left;
-}
-
-.menu li a {
-  text-decoration: none;
-  padding-left: 10px;
-  color: white;
-}
-
-.menu li a:hover {
-  transition: all ease-in 0.3s;
-} */
