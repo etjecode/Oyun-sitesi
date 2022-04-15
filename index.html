@@ -1,31 +1,94 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Custom CSS -->
+
     <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Font Awesome CSS -->
+
+    <script src="https://kit.fontawesome.com/ac4a986ece.js" crossorigin="anonymous"></script>
+
     <title>Oyun Portalı</title>
 </head>
+
 <body>
-    <div class="logo">D-503</div>
-    <!-- <div class="social">Social</div> -->
-    <div class="register">REGISTER</div>
-    <div class="login">LOGIN</div>
-    
-    <div>
-        <ul class="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">GAMES</a></li>
-            <li><a href="#">HARDWARE</a></li>
-            <li><a href="#">NEWS</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">ENTERTAINMENT</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </div>
-    
+
+    <!-- HEADER -->
+
+    <header class="main-header">
+
+        <!-- TOP HEADER -->
+
+        <div class="top-header">
+
+            <div class="containeer">
+
+                <div class="logo">
+                    <h1>D-503</h1>
+                </div>
+
+                <ul class="top-social-menu">
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-amazon"></i></a></li>
+                </ul>
+
+                <div class="login-area">
+                    <a href="#" class="btn">Login<span><i class="fa-solid fa-right-to-bracket"></i></span></a>
+                    <a href="#" class="btn">Sign Up<span><i class="fa-solid fa-user-plus"></i></span></a>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- NAV HEADER -->
+
+        <div class="nav-header">
+            <div class="container">
+                <div class="nav-header">
+                    <nav class="navbar">
+                        
+                        <ul class="navbar-list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Games</a><i class="fa-solid fa-chevron-down"></i>
+                                <ul class="dropdown">
+                                    <li><a href="#">Game-1</a></li>
+                                    <li><a href="#">Game-2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Blog</a><i class="fa-solid fa-chevron-down"></i>
+                                <ul class="dropdown">
+                                    <li><a href="#">Blog-1</a></li>
+                                    <li><a href="#">Blog-2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Software</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+
+                        <div class="search-area">
+                            <form>
+                                <input type="search" placeholder="Search">
+                                <button type="submit" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
 </body>
+
 </html>
