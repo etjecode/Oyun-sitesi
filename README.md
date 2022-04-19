@@ -1,3 +1,3 @@
 # Oyun-sitesi
 
-Bu oyun portalı tasarımı için Arin Yazılım hesabından faydalanılmıştır. İlerleyen zamanlarda üzerinde oynanarak tasarım kişiselleştirilecektir.
+Bu oyun portalı tasarımı Arin Yazılım hesabından alınmış olup değiştirilerek kullanılacaktır.
