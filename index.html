@@ -100,7 +100,7 @@
 
         <!-- SINGLE SLIDE -->
 
-        <div class="single-slide">
+        <div class="single-slide" data-dot="<span>01.</span>">
         <img src="./img/slide_3.jpg">
             <div class="slide-overlay">
                 <div class="container">
@@ -112,7 +112,7 @@
             </div>
         </div>
 
-        <div class="single-slide">
+        <div class="single-slide" data-dot="<span>02.</span>">
             <img src="./img/slide_2.jpg">
                 <div class="slide-overlay">
                     <div class="container">
@@ -124,7 +124,7 @@
                 </div>
         </div>
 
-        <div class="single-slide">
+        <div class="single-slide" data-dot="<span>03.</span>">
             <img src="./img/slide_1.jpg">
                 <div class="slide-overlay">
                     <div class="container">
@@ -148,9 +148,16 @@
         <script>$(document).ready(function(){
             let owl = $(".owl-carousel").owlCarousel({
                 autoplay: false,
-                dots: false,
+                dots: true,
+                dotsData: true,
+                loop: true,
+                nav: false,
                 items: 1
             });
+
+            $('.owl-dot').click(function() {
+                owl.trigger('to.owl.carousel', [$(this).index(), 1000]);
+            })
         });
         </script>
 </body>
