@@ -71,6 +71,14 @@ body {
   width: 100%;
 }
 
+h2 {
+  font-family: "Changa", sans-serif;
+  font-size: 5rem;
+  color: #FEFEFE;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+
 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -229,5 +237,9 @@ img {
   padding: 10rem 7rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(black));
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), black);
+}
+
+.main-slider .single-slide .slide-overlay .slide-content p {
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=styles.css.map */

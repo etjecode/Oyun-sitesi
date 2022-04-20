@@ -28,6 +28,14 @@ body {
     width: 100%;
 }
 
+h2 {
+    font-family: $primary-font ;
+    font-size: 5rem;
+    color: $light-color;
+    letter-spacing: 0.5rem;
+    font-weight: 300;
+}
+
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -177,6 +185,10 @@ img {
                 border-bottom: 2px solid $primary-color;
                 padding: 10rem 7rem;
                 background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 1));
+
+                p {
+                    font-size: 1.4rem;
+                }
                 
 
             }
