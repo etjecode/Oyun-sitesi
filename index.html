@@ -157,7 +157,11 @@
         <script src="./js/owl.carousel.min.js"></script>
 
         <script>$(document).ready(function(){
-            $(".owl-carousel").owlCarousel();
+            let owl = $(".owl-carousel").owlCarousel({
+                autoplay: false,
+                dots: false,
+                items: 1
+            });
         });
         </script>
 </body>
