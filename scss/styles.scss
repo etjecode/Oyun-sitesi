@@ -29,7 +29,7 @@ body {
 }
 
 h2 {
-    font-family: $primary-font ;
+    font-family: $primary-font;
     font-size: 5rem;
     color: $light-color;
     letter-spacing: 0.5rem;
@@ -216,9 +216,9 @@ img {
             background-color: transparent;
             transition: all 0.5s;
 
-            & .active, &:hover {
+            &.active, &:hover {
                 color: $primary-color;
-
+                
                 span {
                     background-color: transparent;
                 }
@@ -227,7 +227,7 @@ img {
             span {
                 font-size: 2.5rem;
                 font-family: $primary-font;
-                background: transparent;
+                background: transparent !important;
             }
         }
     }

@@ -269,17 +269,17 @@ img {
   transition: all 0.5s;
 }
 
-.owl-theme .owl-dots .owl-dot .active, .owl-theme .owl-dots .owl-dot:hover {
+.owl-theme .owl-dots .owl-dot.active, .owl-theme .owl-dots .owl-dot:hover {
   color: #E51515;
 }
 
-.owl-theme .owl-dots .owl-dot .active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background-color: transparent;
 }
 
 .owl-theme .owl-dots .owl-dot span {
   font-size: 2.5rem;
   font-family: "Changa", sans-serif;
-  background: transparent;
+  background: transparent !important;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -140,26 +140,14 @@
     </main>
 
         <!-- JQUERY -->
-        <script src="./js/jquery-3.6.0.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
 
         <!-- OWL CAROUSEL -->
-        <script src="./js/owl.carousel.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
 
-        <script>$(document).ready(function(){
-            let owl = $(".owl-carousel").owlCarousel({
-                autoplay: false,
-                dots: true,
-                dotsData: true,
-                loop: true,
-                nav: false,
-                items: 1
-            });
+        <!-- CUSTOM JS -->
+        <script src="js/main.js"></script>
 
-            $('.owl-dot').click(function() {
-                owl.trigger('to.owl.carousel', [$(this).index(), 1000]);
-            })
-        });
-        </script>
 </body>
 
 </html>
