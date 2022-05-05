@@ -535,10 +535,12 @@ img {
 
 .recent-games-content .recent-game-content .game-meta .game-comment {
   color: #08ABBD;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .recent-games-content .recent-game-content .game-meta .game-comment:hover {
-  color: #02262a;
+  color: #04525b;
 }
 
 .recent-games-content .recent-game-content p {

@@ -376,9 +376,10 @@ img {
 
                     .game-comment {
                         color: $comment-color;
+                        transition: all .5s;
 
                         &:hover {
-                            color: darken($comment-color, 30%)
+                            color: darken($comment-color, 20%)
                         }
                     }
                 }
