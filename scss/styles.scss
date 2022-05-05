@@ -1,6 +1,7 @@
 @import 'abstracts';
-
 @import 'components';
+@import 'animations';
+
 
 // GENERAL SETTINGS
 
@@ -73,12 +74,6 @@ img {
     .container {
         @include flex-display(flex, center, space-between);
         
-        .logo {
-
-            
-
-        }
-
         .top-social-menu {
             display: flex;
 
@@ -197,6 +192,7 @@ img {
                 border-bottom: 2px solid $primary-color;
                 padding: 10rem 7rem;
                 background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 1));
+                animation: mainAni 3s ease-out;
 
                 p {
                     font-size: 1.4rem;
