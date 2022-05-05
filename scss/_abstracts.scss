@@ -39,6 +39,14 @@ $light-color: #FEFEFE;
     }
 }
 
+.text-light {
+    color: $light-color;
+}
+
+.text-primary {
+    color: $primary-color;
+}
+
 // MIXINS
 
 @mixin flex-display($display, $align-items, $justify-content) {
