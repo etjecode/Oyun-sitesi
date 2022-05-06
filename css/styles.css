@@ -440,8 +440,39 @@ img {
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   grid-row-gap: 4rem;
-  grid-column-gap: 8rem;
+  grid-column-gap: 4rem;
       grid-template-areas: 'item-1 item-1 item-1 item-2' 'item-3 item-4 item-5 item-6';
+}
+
+.recent-games-content .recent-game-featured {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recent-games-content .recent-game-featured .recent-game-thumbnail {
+  height: 100%;
+}
+
+.recent-games-content .recent-game-featured .recent-game-thumbnail img {
+  height: 100%;
+}
+
+.recent-games-content .recent-game-featured .rating {
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+}
+
+.recent-games-content .recent-game-featured .game-title {
+  font-size: 3rem !important;
 }
 
 .recent-games-content .recent-game {
@@ -498,7 +529,9 @@ img {
 }
 
 .recent-games-content .recent-game-content .game-title {
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  letter-spacing: 0;
 }
 
 .recent-games-content .recent-game-content .game-title a {
@@ -520,7 +553,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .recent-games-content .recent-game-content .game-meta .game-date {
