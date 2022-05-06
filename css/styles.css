@@ -488,8 +488,8 @@ img {
 
 .recent-games-content .recent-game-thumbnail img {
   width: 100%;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .recent-games-content .recent-game-thumbnail::after {
@@ -502,8 +502,8 @@ img {
   height: 100%;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .recent-games-content .recent-game:hover .recent-game-thumbnail::after, .recent-games-content .recent-game:focus .recent-game-thumbnail::after {
@@ -514,14 +514,14 @@ img {
 .recent-games-content .recent-game:hover .recent-game-thumbnail img, .recent-games-content .recent-game:focus .recent-game-thumbnail img {
   -webkit-transform: scale(1.1) rotate(5deg);
           transform: scale(1.1) rotate(5deg);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .recent-games-content .recent-game:hover .recent-game-thumbnail .rating, .recent-games-content .recent-game:focus .recent-game-thumbnail .rating {
   opacity: 1;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .recent-games-content .recent-game-content {
@@ -535,8 +535,8 @@ img {
 }
 
 .recent-games-content .recent-game-content .game-title a {
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .recent-games-content .recent-game-content .game-title a:hover {
@@ -558,8 +558,8 @@ img {
 
 .recent-games-content .recent-game-content .game-meta .game-date {
   color: #FFB320;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .recent-games-content .recent-game-content .game-meta .game-date:hover {
@@ -568,8 +568,8 @@ img {
 
 .recent-games-content .recent-game-content .game-meta .game-comment {
   color: #08ABBD;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .recent-games-content .recent-game-content .game-meta .game-comment:hover {
