@@ -291,9 +291,32 @@ img {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-row-gap: 4rem;
-        grid-column-gap: 8rem;
+        grid-column-gap: 4rem;
         grid-template-areas: 'item-1 item-1 item-1 item-2'
                              'item-3 item-4 item-5 item-6';
+
+        .recent-game-featured {
+            @include flex-display(flex, center, space-between);
+
+            .recent-game-thumbnail {
+                height: 100%;
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            .rating {
+                width: 5rem;
+                height: 5rem;
+                line-height: 5rem;
+                font-size: 2rem;
+            }
+
+            .game-title {
+                font-size: 3rem !important;
+            }
+        }
 
         .recent-game {
             width: 100%;
@@ -350,7 +373,9 @@ img {
                 padding: 2rem;
 
                 .game-title {
-                    margin-bottom: 2rem;
+                    margin-bottom: 1.2rem;
+                    font-size: 1.8rem;
+                    letter-spacing: 0;
 
                     a {
                         transition: all .5s;
@@ -363,7 +388,7 @@ img {
 
                 .game-meta {
                     @include flex-display(flex, center, space-between);
-                    font-size: 1.6rem;
+                    font-size: 1.2rem;
 
                     .game-date {
                         color: $date-color;
