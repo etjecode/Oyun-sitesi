@@ -65,3 +65,32 @@
     border-radius: 50%;
     color: $primary-color;
 }
+
+// REVIEWS
+
+.review {
+    padding: 5rem;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-left: 10rem;
+
+    &-tags {
+
+    }
+
+    &-text {
+
+    }
+
+    &-user {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 8rem;
+            margin-right: 3rem;
+            border-radius: 50% ;
+        }
+    }
+
+}
