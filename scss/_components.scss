@@ -73,13 +73,23 @@
     font-size: 1.3rem;
     line-height: 1.8;
     margin-left: 10rem;
+    border-left: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    transform: skew(-28deg);
 
+    & > * {
+        transform: skew(28deg );
+    }
+    
     &-tags {
-
+        font-size: 1.5rem;
+        color: $light-color;
+        text-transform: uppercase;
     }
 
     &-text {
-
+        margin: 1rem 0;
+        
     }
 
     &-user {
@@ -90,6 +100,37 @@
             width: 8rem;
             margin-right: 3rem;
             border-radius: 50% ;
+        }
+
+        &-detail {
+            font-family: $primary-font;
+            margin-right: 3rem;
+
+            .review-user-name {
+                color: $primary-color;
+            }
+
+            .review-user-date {
+                color: $date-color;
+            }
+        }
+ 
+        &-platform {
+            :not(:last-child) {
+                color: $primary-color;
+            }
+
+            .fa-brands {
+                margin: 0 1rem;
+            }
+        }
+
+        &-rating {
+            margin-left: auto;
+
+            .checked {
+                color: $primary-color;
+            }
         }
     }
 
