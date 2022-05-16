@@ -23,6 +23,10 @@
   color: #FEFEFE;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-primary {
   color: #E51515;
 }
