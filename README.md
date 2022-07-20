@@ -1,6 +1,6 @@
 # Oyun-sitesi
 
-Bu oyun portalı tasarımı Arin Yazılım hesabından alınmış olup değiştirilerek kullanılacaktır.
+Bu oyun portalı tasarımı Arin Yazılım hesabından alınmıştır.
 
 
-Deployed @ https://etjecode-game-portal.netlify.app
+https://etjecode-game-portal.netlify.app
