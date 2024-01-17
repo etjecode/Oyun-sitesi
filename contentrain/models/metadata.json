@@ -5,5 +5,12 @@
     "localization": false,
     "type": "JSON",
     "createdBy": "user"
+  },
+  {
+    "name": "test-model-json-2",
+    "modelId": "test-model-json-2",
+    "localization": false,
+    "type": "JSON",
+    "createdBy": "user"
   }
 ]
